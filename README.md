@@ -3,28 +3,34 @@ Amnesia carries out DDoS (Dedicated Denial Of Service) attacks. It is a Perl Scr
 
 # Installation
 
-Open your terminal, or connect to your vps
+1. Open your terminal, or connect to your vps
 
-Type "git clone https://github.com/MurmurNBB/Amnesia.git" without quotations.
+2. Type "git clone https://github.com/MurmurNBB/Amnesia.git" without quotations.
 
-You've successfully downloaded the tool!
+3. You've successfully downloaded the tool!
 
 # Give permissions and Initial Setup
 
-cd Amnesia
+Type the following commands;
 
-chmod +x Amnesia.pl
+1. cd Amnesia
+
+2. chmod +x Amnesia.pl
 
 Usage:
 
-First, do "cd Amnesia" without quotations if you aren't already in the directory.
+1. First, do "cd Amnesia" without quotations if you aren't already in the directory.
 
-Now, do "./Amnesia.pl" without quotations.
+2. Now, do "./Amnesia.pl" without quotations.
 
-Input the IP you want to DDoS.
+3. Input the IP you want to DDoS.
 
-For port, I recommend using 80, 22, or 443; However, You can use Nmap to scan for open ports to ddos from an IP.
+4. Amnesia will do it's best in hitting the IP offline, but be nice; Sometimes the IP is too powerful and Amnesia forgets!
+
+# Extra Info
+
+For the port, I recommend using 80, 22, or 443; However, You can use Nmap to scan an IP for open ports to use.
 
 Choose TCP or UDP (Normally I use UDP).
 
-Enjoy!
+Use Amnesia responsibly, I am not held responsible for anything you do with Amnesia and it is your responsibility and solely yours.
