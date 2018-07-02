@@ -34,3 +34,5 @@ For the port, I recommend using 80, 22, or 443; However, You can use Nmap to sca
 Choose TCP or UDP (Normally I use UDP).
 
 Use Amnesia responsibly, I am not held responsible for anything you do with Amnesia and it is your responsibility and solely yours.
+
+Want to end the attack? Hold CTRL + C down at the same time and the script will end.
