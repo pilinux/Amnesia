@@ -20,13 +20,13 @@ Made by Pyr0is/Pyr0ThePlug.
 };
  
 print "\n------------------------------";
-print "\n The IP you want to hit with Amnesia";
+print "\n The IP you want to hit with Amnesia:";
 chop ($host = <stdin>);
 print "===============================";
-print "\n The Port that'll forget "; 
+print "\n The Port that'll forget: "; 
 chop ($port = <stdin>);
 print "===============================";
-print "\n The Protocol (TCP or UDP) :";
+print "\n The Protocol (TCP or UDP):";
 chop ($proto = <stdin>);
 system("clear || cls");
 print "\n[*][$host] Is being hit with Amnesia on port [$port] via proto => [$proto] Protocol\n\n";
